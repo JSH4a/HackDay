@@ -168,3 +168,66 @@ a:hover {
     text-decoration: underline;
 }
 
+/* poster */
+
+.poster {
+    background-image: url("https://dimmageiras.github.io/101-computing-wanted-poster-css-task/images/parchment.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: .125rem .25rem .5rem .1875rem #000;
+    box-sizing: border-box;
+    height: 38.75rem;
+    margin: 1.2rem auto;
+    padding-top: 1.7rem;
+    text-align: center;
+    width: auto;
+}
+
+.subheading {
+    font-size: 1.34rem;
+    margin: 1rem auto .48rem auto;
+}
+
+.mugshot {
+    background-image: url("https://dimmageiras.github.io/101-computing-wanted-poster-css-task/images/mugshot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: .125rem solid #291200;
+    display: inline-block;
+    filter: sepia(60%);
+    height: 19.1rem;
+    opacity: .9;
+    padding: .625rem;
+    width: 17.5rem;
+}
+
+.name {
+    font-size: 2rem;
+    margin: .7rem
+}
+
+em {
+    font-size: 1rem;
+    font-style: italic;
+    margin: .7rem;
+}
+
+h1 {
+    font-family: "Ewert", cursive;
+    font-size: 3.6666694383206rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: .7rem auto .55rem auto;
+}
+
+u {
+    font-size: 2rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
