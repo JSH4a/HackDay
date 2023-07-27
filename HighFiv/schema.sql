@@ -8,9 +8,8 @@ DROP TABLE IF EXISTS reward;
 
 CREATE TABLE user (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT NOT NULL,
-  email TEXT NOT NULL,
-  password_hash TEXT NOT NULL,
+  username TEXT NOT NULL,
+  password TEXT NOT NULL,
   fivbucks INTEGER,
   bountybucks INTEGER,
   role TEXT
