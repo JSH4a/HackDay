@@ -1,0 +1,17 @@
+#main-title {
+    margin: auto;
+    display: block;
+}
+
+.large-logo {
+    background-image: url("../images/high five hat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: sepia(60%);
+    opacity: .9;
+    padding: .625rem;
+    height: 20%;
+    width: 50%;
+    margin: auto;
+}

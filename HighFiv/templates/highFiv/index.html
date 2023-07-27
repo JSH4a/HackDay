@@ -1,33 +1,26 @@
 {% extends 'base.html' %}
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
-
 {% block header %}
-    <h1>{% block title %}High Fiv{% endblock %}</h1>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
 {% endblock %}
 
 {% block content %}
     <div class="container">
         <!-- Left Side - Application Title and User Info -->
         <div class="left-side">
-            <div class="large-logo" role="img"></div>
-            <h1>Wild West App</h1>
+            <h1>{% block title %}High Fiv{% endblock %}</h1>
             <ul>
-                <li>Current Username: John Doe</li>
-                <li><a href=" #">Logout</a></li>
+                <a href="{{ 'auth.login' }}">Report</a>
+                <a href="{{ 'auth.login' }}">Monthly Board</a>
+                <a href="{{ 'auth.login' }}">My Wallet</a>
             </ul>
         </div>
 
-        <!-- Right Side - Login Box -->
         <div class="right-side">
-            <div class="poster">
-                <h1>WANTED</h1>
-                <p class="subheading">Dead or Alive</p>
-                <div class="mugshot" role="img" aria-label="mugshot-img"></div>
-                <p class="name">Billy the Kid</p>
-                <em>Armed & very dangerous</em>
-                <h2>Reward</h2>
-                <u>$50.000</u>
+            <div class="most-wanted-list">
+                {% include '/highFiv/wanted-poster.html' %}
+                {% include '/highFiv/wanted-poster.html' %}
+                {% include '/highFiv/wanted-poster.html' %}
             </div>
         </div>
     </div>

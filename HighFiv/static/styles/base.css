@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css2?family=Ewert&family=Ultra);
+
+section {
+    width: 100%;
+}
+
+
+body {
+    background-image: url("../images/loginbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ultra", serif;
+}
